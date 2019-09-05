@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>E-Cell System version 4 </title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.52" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/ecell_hugo/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+      <link href="https://www.e-cell.org/ecell_hugo/index.xml" rel="alternate" type="application/rss+xml" title="E-Cell System version 4" />
+      <link href="https://www.e-cell.org/ecell_hugo/index.xml" rel="feed" type="application/rss+xml" title="E-Cell System version 4" />
+    
+
+    <meta property="og:title" content="" />
+<meta property="og:description" content="A multi-algorithm, multi-timescale, multi-spatial-representation biochemical simulation environment." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.e-cell.org/ecell_hugo/" />
+
+<meta itemprop="name" content="">
+<meta itemprop="description" content="A multi-algorithm, multi-timescale, multi-spatial-representation biochemical simulation environment.">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="A multi-algorithm, multi-timescale, multi-spatial-representation biochemical simulation environment."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+
+  <header>
+    <div class="pb3-m pb6-l bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://www.e-cell.org/ecell_hugo" class="f3 fw2 hover-white no-underline white-90 dib">
+      E-Cell System version 4
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv3 ph3 ph4-ns">
+        <h1 class="f2 f-subheadline-l fw2 light-silver mb0 lh-title">
+          E-Cell System version 4
+        </h1>
+        
+          <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+            A multi-algorithm, multi-timescale, multi-spatial-representation biochemical simulation environment.
+          </h2>
+        
+      </div>
+    </div>
+  </header>
+
+
+    <main class="pb7" role="main">
+      
+  <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+    
+
+<h1 id="hello-e-cell4">Hello E-Cell4</h1>
+
+<p>E-Cell System is a software platform for modeling, simulation and analysis of complex,
+heterogeneous and multi-scale systems like the cell.</p>
+
+<pre><code>from ecell4 import *
+
+with reaction_rules():
+    A + B == C | (0.01, 0.3)
+
+run_simulation(10, {'A': 60, 'B': 60}, solver='gillespie')
+</code></pre>
+
+<p><img src="images/gillespie.png" alt="gillespie" /></p>
+
+<h1 id="features">Features</h1>
+
+<h3 id="single-particle-simulations">Single particle simulations</h3>
+
+<p>This is a description about feature1.
+<a href="http://gfrd.org">The enhanced Green&rsquo;s Function Reaction Dynamics (eGFRD) method</a>,
+<a href="http://spatiocyte.org">Spatiocyte</a>,
+and the Reaction Brownian Dynamics(RBD) method.</p>
+
+<h3 id="multi-algorithm-support">Multi-algorithm support</h3>
+
+<p>This is a description about feature2.</p>
+
+<h3 id="rule-based-modeling">Rule-based modeling</h3>
+
+<p>This is a description about feature3.</p>
+
+<h3 id="python-programmable">Python programmable</h3>
+
+<p>This is a description about feature4.</p>
+
+<h3 id="interactive-visualizations-on-jupyter-notebook">Interactive visualizations on Jupyter Notebook</h3>
+
+<p>This is a description about feature5.</p>
+
+<h3 id="bioinformatics-integration">Bioinformatics integration</h3>
+
+<p>Garuda gadget, data source, etc.</p>
+
+<h1 id="examples">Examples</h1>
+
+<p><img src="images/drosophila.png" alt="drosophila" /></p>
+
+<p><img src="images/minde.gif" alt="minde" /></p>
+
+<p>This is a screenshot about example3.</p>
+
+<p><a href=".">notebook</a></p>
+
+<p><img src="images/attractors.png" alt="attractors" /></p>
+
+<p>For more tutorials and examples, see <a href="http://ecell4.readthedocs.io/">http://ecell4.readthedocs.io/</a>.</p>
+
+<h2 id="license">License</h2>
+
+<p>This project is licensed under the terms of the GNU General Public License v2.
+See <a href="https://github.com/ecell/ecell4#licensing-terms">LICENSE</a>.</p>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/en/d/dc/RIKEN_logo.gif" alt="RIKEN_logo" /></p>
+
+  </article>
+  
+  
+  
+  
+  
+  
+  
+
+    </main>
+    <footer>
+  <div style="text-align: center; margin: 30px">
+    <a href="https://github.com/ecell/ecell4">E-Cell System version 4</a> is maintained by <a href="https://github.com/ecell">ecell</a>.
+  </div>
+</footer>
+
+    
+
+  <script src="/ecell_hugo/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>E-Cell System version 4</title>
+    <link>https://www.e-cell.org/ecell_hugo/</link>
+    <description>Recent content on E-Cell System version 4</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://www.e-cell.org/ecell_hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
