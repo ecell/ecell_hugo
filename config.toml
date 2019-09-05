@@ -2,3 +2,8 @@ baseURL = "https://gracious-almeida-b31136.netlify.com/"
 languageCode = "en-us"
 title = "E-Cell System version 4"
 theme = "ananke"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+
+[params]
+    custom_css = [ "css/highlight.css", "css/syntax.css" ]

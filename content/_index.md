@@ -7,7 +7,7 @@ description: A multi-algorithm, multi-timescale, multi-spatial-representation bi
 E-Cell System is a software platform for modeling, simulation and analysis of complex,
 heterogeneous and multi-scale systems like the cell.
 
-```
+```python
 from ecell4 import *
 
 with reaction_rules():
