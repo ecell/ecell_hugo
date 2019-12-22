@@ -1,9 +1,68 @@
-baseURL = "https://gracious-almeida-b31136.netlify.com/"
+#baseURL = "https://gracious-almeida-b31136.netlify.com/"
 languageCode = "en-us"
 title = "E-Cell System version 4"
-theme = "ananke"
-pygmentsUseClasses = true
-pygmentsCodeFences = true
+theme = "hugo-universal-theme"
+#pygmentsUseClasses = true
+#pygmentsCodeFences = true
+
+#[params]
+#    custom_css = [ "css/highlight.css", "css/syntax.css" ]
+
+[menu]
+
+# Main menu
+
+[[menu.main]]
+    identifier="home"
+    name = "Home"
+    url  = "/"
+    weight = 1
+
+[[menu.main]]
+    identifier = "faq"
+    name = "FAQ"
+    url  = "/faq/"
+    weight = 2
 
 [params]
-    custom_css = [ "css/highlight.css", "css/syntax.css" ]
+    defaultDescription = "Site template made by devcows using hugo"
+
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "default"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    #
+    # Enable the contact form by entering your Formspree.io email
+    email = "your@email.com"
+    contact_form_ajax = false
+
+    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
+    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+
+    # Format dates with Go's time formatting
+    date_format = "January 2, 2006"
+
+    logo = "img/logo.png"
+    logo_small = "img/logo-small.png"
+
+[params.carousel]
+    enable = true
+    # All carousel items are defined in their own files. You can find example items
+    # at 'exampleSite/data/carousel'.
+    # For more informtion take a look at the README.
+
+[params.features]
+    enable = true
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
+    # For more informtion take a look at the README.
