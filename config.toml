@@ -53,7 +53,7 @@ theme = "hugo-universal-theme"
     date_format = "January 2, 2006"
 
     #logo = "img/logo.png"
-    logo = "images/ecell-logo-with-title.png"
+    logo = "images/ecell-logo.png"
     logo_small = "img/logo-small.png"
 
 [params.carousel]
