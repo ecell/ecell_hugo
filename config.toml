@@ -52,7 +52,8 @@ theme = "hugo-universal-theme"
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
-    logo = "img/logo.png"
+    #logo = "img/logo.png"
+    logo = "images/ecell-logo-with-title.png"
     logo_small = "img/logo-small.png"
 
 [params.carousel]
